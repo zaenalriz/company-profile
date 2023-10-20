@@ -12,8 +12,9 @@
         </div>
         <div class="menu" :class="{ responsive: navbarActive }">
             <a href="#home">Beranda</a>
+            <a href="#news">Portfolio</a>
             <a href="#news">Blog</a>
-            <a href="#contact">Contact</a>
+            <a href="#contact">Kontak</a>
         </div>
 
     </div>
@@ -102,4 +103,5 @@ export default {
     }
 }
 
-/* navbar */</style>
+/* navbar */
+</style>

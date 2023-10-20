@@ -16,6 +16,9 @@
                 </div>
             </div>
         </div>
+        <div class="read-more">
+            <a href="">Lihat lebih banyak</a>
+        </div>
     </div>
 </template>
 

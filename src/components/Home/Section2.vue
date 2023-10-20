@@ -38,6 +38,7 @@
                 <p>Lorem ipsum dolor sit amet consecte adipiscing elit sed do eiusincidunt.</p>
             </div>
         </div>
+
     </div>
 </template>
 <style>
