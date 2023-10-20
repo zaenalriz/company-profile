@@ -11,7 +11,6 @@
             </a>
         </div>
         <div class="menu" :class="{ responsive: navbarActive }">
-
             <a href="#home">Beranda</a>
             <a href="#news">Blog</a>
             <a href="#contact">Contact</a>
@@ -75,11 +74,9 @@ export default {
 }
 
 @media screen and (max-width: 600px) {
-
     .topnav {
         display: block;
         padding: 0;
-
     }
 
     .topnav .menu a {
@@ -98,7 +95,6 @@ export default {
         display: block;
     }
 
-
     .topnav.responsive a {
         float: none;
         display: block;
@@ -106,5 +102,4 @@ export default {
     }
 }
 
-/* navbar */
-</style>
+/* navbar */</style>

@@ -42,9 +42,13 @@
 </template>
 <style>
 /* section 2 */
+.section_2 {
+    margin-top: 80px;
+}
+
 .section_2 h3 {
     font-weight: 900;
-    font-size: 30px;
+    font-size: 48px;
     line-height: 35px;
     color: #042181;
     margin-bottom: 30px;

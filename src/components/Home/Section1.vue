@@ -1,7 +1,6 @@
 <template>
     <div>
         <div class="section_1">
-
             <div class="section1_content">
                 <h1>Experts are here solve your business problem.</h1>
                 <p>You’ll be much better than with most other themes options are done right
