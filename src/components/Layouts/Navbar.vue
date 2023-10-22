@@ -11,8 +11,8 @@
             </a>
         </div>
         <div class="menu" :class="{ responsive: navbarActive }">
-            <a href="#home">Beranda</a>
-            <a href="#news">Portfolio</a>
+            <router-link :to="{ name: 'home' }">Beranda</router-link>
+            <router-link :to="{ name: 'portfolio' }">Portfolio</router-link>
             <a href="#news">Blog</a>
             <a href="#contact">Kontak</a>
         </div>
@@ -54,7 +54,10 @@ export default {
 }
 
 .topnav a:hover {
-    background-color: #ddd;
+    border-bottom: 2px solid #4c55c4;
+}
+
+.topnav a:hover {
     color: black;
 }
 
