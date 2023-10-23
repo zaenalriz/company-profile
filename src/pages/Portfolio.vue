@@ -2,13 +2,22 @@
     <div>
         <div class="container">
             <div class="portofolio">
-
-                <h3> Portofolio Kami</h3>
+                <h3>Portofolio Kami</h3>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure, praesentium hic. Culpa optio, quibusdam
                     alias
                     fuga ullam recusandae dolorem repellat.</p>
-              
-                <CardPortfolio></CardPortfolio>
+                <div class="category">
+                    <span> Desain</span>
+                    <span> Desain</span>
+                    <span> Desain</span>
+                    <span> Desain</span>
+                    <span> Desain</span>
+                </div>
+                <div class="row-portofolio">
+                    <CardPortfolio></CardPortfolio>
+                    <CardPortfolio></CardPortfolio>
+                    <CardPortfolio></CardPortfolio>
+                </div>
             </div>
         </div>
     </div>
@@ -23,6 +32,22 @@ export default {
 </script>
 
 <style>
+/* category */
+.category {
+    margin: 10px 0 35px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.category span {
+    background-color: #bdcdff;
+    padding: 10px 15px;
+    font-weight: 500;
+    border-radius: 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
 .row-portofolio {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -34,15 +59,13 @@ export default {
 
 }
 
-.portofolio h3 {
-    margin: auto;
-    font-family: 'Raleway', sans-serif;
+.portofolio h4 {
+    margin-top: 10px;
     font-weight: 900;
-    font-size: 48px;
-    line-height: 70px;
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 0;
     color: #042181;
-    margin-bottom: 15px;
-    text-align: center;
 }
 
 .portofolio p {
@@ -59,5 +82,19 @@ export default {
 
 .portofolio p span {
     color: gray;
+}
+
+@media screen and (max-width: 600px) {
+
+
+    .row-portofolio {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+    }
+
+    .portofolio h4 {
+        font-size: 20px;
+    }
 }
 </style>

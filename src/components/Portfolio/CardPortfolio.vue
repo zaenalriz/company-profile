@@ -1,31 +1,11 @@
 <template>
-    <div class="row-portofolio">
-        <div class="card-portofolio">
-            <img src="https://themesflat.co/html/grabyinsur/images/project/img-08.jpg" alt="">
-            <div class="card-portofolio-description">
-                <h4>
-                    User-Friendly Behaviour For Business mind people
-                </h4>
-                <p><span>Clients: </span>Radithka</p>
-            </div>
-        </div>
-        <div class="card-portofolio">
-            <img src="https://themesflat.co/html/grabyinsur/images/project/img-08.jpg" alt="">
-            <div class="card-portofolio-description">
-                <h4>
-                    User-Friendly Behaviour For Business mind people
-                </h4>
-                <p><span>Clients: </span>Radithka</p>
-            </div>
-        </div>
-        <div class="card-portofolio">
-            <img src="https://themesflat.co/html/grabyinsur/images/project/img-08.jpg" alt="">
-            <div class="card-portofolio-description">
-                <h4>
-                    User-Friendly Behaviour For Business mind people
-                </h4>
-                <p><span>Clients: </span>Radithka</p>
-            </div>
+    <div class="card-portofolio">
+        <img src="https://themesflat.co/html/grabyinsur/images/project/img-08.jpg" alt="">
+        <div class="card-portofolio-description">
+            <h4>
+                User-Friendly Behaviour For Business mind people
+            </h4>
+            <p><span>Clients: </span>Radithka</p>
         </div>
     </div>
 </template>

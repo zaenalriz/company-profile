@@ -52,7 +52,7 @@
 
     .section1_content {
         width: 100%;
-        padding: 30px;
+        padding: 30px 0;
     }
 
     .section1_img {

@@ -14,7 +14,7 @@
             <router-link :to="{ name: 'home' }">Beranda</router-link>
             <router-link :to="{ name: 'portfolio' }">Portfolio</router-link>
             <router-link :to="{ name: 'blog' }">Blog</router-link>
-            <a href="#contact">Kontak</a>
+            <router-link :to="{ name: 'contact' }">Contact</router-link>
         </div>
 
     </div>

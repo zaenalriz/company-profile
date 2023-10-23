@@ -3,7 +3,10 @@
         <h3> Portofolio Kami</h3>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure, praesentium hic. Culpa optio, quibusdam alias
             fuga ullam recusandae dolorem repellat.</p>
-        <CardPortfolio></CardPortfolio>
+        <div class="row-portofolio">
+
+            <CardPortfolio></CardPortfolio>
+        </div>
         <div class="read-more">
             <a href="">Lihat lebih banyak</a>
         </div>
